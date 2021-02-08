@@ -1,0 +1,10 @@
+dans le répertoire api-trello, lancer 
+> npm install
+> npm run develop
+cela lance le back sur http://localhost:1337/
+
+login : fabien.laurette@gmail.com / Strapi2021
+
+http://localhost:1337/admin/
+http://localhost:1337/contacts
+
