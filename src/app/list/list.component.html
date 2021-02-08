@@ -1,0 +1,9 @@
+<h2>{{list.name}}</h2>
+
+<div cdkDropList (cdkDropListDropped)="drop($event)">
+    <div cdkDrag *ngFor="let card of list.cards">
+        <app-card [listId]="list.id" [card]="card"></app-card>    
+    </div>
+    <button (click)="addCardAction()">Ajouter une carte</button>        
+</div>
+

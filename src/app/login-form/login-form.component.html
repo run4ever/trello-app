@@ -1,0 +1,6 @@
+<form #loginForm="ngForm" (submit)="onLogInSubmit(loginForm)">
+    <h1>Connexion</h1>
+    <input ngModel name="identifier" placeholder="pseudo" type="text" class="form-control">
+    <input ngModel name="password" placeholder="mot de passe" type="password" class="form-control">
+    <button>Se connecter</button>
+</form>
